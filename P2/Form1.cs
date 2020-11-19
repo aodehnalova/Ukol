@@ -19,7 +19,7 @@ namespace P2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Zdar");
+            MessageBox.Show("Zdar");//tady máš chybu
             int x = 5;
             int b = 7;
             int c = x + b;

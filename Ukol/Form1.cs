@@ -22,6 +22,7 @@ namespace Ukol
             int x = Convert.ToInt16(textBox1.Text);
             int b = Convert.ToInt16(textBox2.Text);
             int c = x + b;
+            MessageBox.Show("ahoj");
             label1.Text = c.ToString();
 
         }
